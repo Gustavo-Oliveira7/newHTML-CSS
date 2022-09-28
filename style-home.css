@@ -1,0 +1,55 @@
+body {
+
+}
+	
+#banner {
+	width: 100%;
+	height: 300px;
+}
+
+.principal {
+	background: #CCCCCC;
+	padding: 30px;
+}
+
+.titulo-principal {
+	padding: 5px;
+
+}
+
+p {
+	text-align: center;
+}
+
+#descrição {
+	style="font-size: 20px;"
+}
+
+strong {
+	color: #336699;
+}
+
+.itens {
+	font-style: italic;
+}
+
+.Diferenciais {
+	background: #FFFFFF;
+	padding: 20px;
+}
+
+ul {
+	display: inline-block;
+	vertical-align: top;
+	width: 25%;
+	margin-right: 15%;
+}
+
+.imagemdiferenciais {
+	width: 50%;
+
+}
+
+.titulo-centralizado {
+	text-align: center;
+}

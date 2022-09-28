@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="pt-br">
+
+	<head>
+		<meta charset="utf-8">
+		<title>Contato GHO Capital</title>
+		<link rel="stylesheet" href="reset.css">
+		<link rel="stylesheet" href="style.css">
+
+	</head>
+
+	<body>
+		<header>
+			<div class="caixamenu">
+				<h1><img src="logo1.jpg" alt="Logo da GHO Capital"></h1>			
+				<nav>
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="produtos.html">Produtos</a></li>
+						<li><a href="contato.html">Contato</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+
+		<main>
+			<form>
+				<label for="nome">Nome e sobrenome</label>
+				<input type="text" id="nome" class="input-padrao" required>
+
+				<label for="email">Email</label>
+				<input type="email" name="email" class="input-padrao" required placeholder="seuemail@email.com">
+
+				<label for="telefone">Telefone</label>
+				<input type="tel" name="telefone" class="input-padrao" required placeholder="(XX)XXXXX-XXXX">
+
+				<label for="mensagem">Mensagem</label>
+				<textarea cols="50" rows="5" id="mensagem" class="input-padrao" required></textarea>
+
+				<fieldset>
+					<legend>Como prefere o nosso contato?</legend>
+					<label for="radio-email"><input type="radio" value="email" id="radio-email" name="contato">Email</label>
+					
+					<label for="radio-telefone"><input type="radio" value="telefone" id="radio-telefone" name="contato">Telefone</label>
+				
+					<label for="radio-whatsapp"><input type="radio" value="whatsapp" id="radio-whatsapp" name="contato" checked>Whatsapp</label>
+				</fieldset>
+
+				<fieldset>
+					<legend>Qual horário deseja ser atendido?</legend>
+					<select>
+						<option>Manhã</option>
+						<option>Tarde</option>
+						<option>Noite</option>
+					</select>
+				</fieldset>
+
+				<label class="checkbox"><input type="checkbox" checked>Gostaria de receber novas novidades por email?</label>
+
+				<input type="submit" value="Enviar Formulário" class="enviar">
+			</form>
+
+			<table>
+				<legend id="legenda-tabela">Horário de atendimento</legend>
+				<thead>
+					<tr>
+						<th>Dia</th>
+						<th>Horário</th>
+					</tr>
+
+				</thead>
+
+				<tbody>
+					<tr>
+						<td>Segunda</td>
+						<td>7hrs ~ 17hrs</td>
+					</tr>
+					<tr>
+						<td>Quarta</td>
+						<td>7hrs ~ 17hrs</td>
+					</tr>
+					<tr>
+						<td>Sexta</td>
+						<td>7hrs ~ 17hrs</td>
+					</tr>
+				</tbody>
+			</table>
+
+		</main>
+
+
+
+		<footer>
+			<img src="logobranco.png" alt="Logo da GHO Capital">
+			<p class="copy">&copy; Copyright GHO Capital</p>
+		</footer>
+	</body>
+</html>

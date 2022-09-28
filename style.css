@@ -1,0 +1,164 @@
+header {
+	background: #17181A;
+	padding: 20px 0;
+}
+
+.caixamenu {
+	position: relative;
+	width: 940px;
+	padding: 0 auto;
+}
+
+nav {
+	position: absolute;
+	top: 110px;
+	right: 0;
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 20px;
+
+}
+
+nav a {
+	text-transform: uppercase;
+	color: #DAA520;
+	font-weight: bold;
+	font-size: 28px;
+	text-decoration: none;
+
+}
+
+nav a:hover { /* Altera o comportamento do elemento qnd o mouse está por cima*/
+	color: #ffffff;
+	text-decoration: underline;
+}
+
+.produtos {
+	width: 940px;
+	margin: 0 auto;
+	padding: 50px 0;
+}
+
+.produtos li {
+	display: inline-block;
+	text-align: center;
+	width: 30%;
+	vertical-align: top;
+	margin: 0 1.5%;
+	padding: 30px 20px;
+	box-sizing: border-box; /* Não deixa o padding aumentar o tamanho do elemento,
+	 mantendo ele nos 30% que queriamos */
+	border: 4px solid #000000;
+	border-radius: 20px;
+}
+
+.produtos li:hover {
+	border-color: #DAA520 ;
+}
+
+.produtos li:hover h2 {
+		font-size: 40px;
+}
+
+.produtos li:active { /* Usado para quando o mouse está pressionado */
+		border-color: lightgreen;
+}
+
+.produtos h2 {
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.cliqueaqui {
+	font-size: 20px;
+	font-weight: bold;
+	margin-top: 10px;
+}
+
+.descrição-produto {
+	font-size: 18px;
+}
+
+footer {
+	text-align: center;
+	background: url("fundo3.png");
+	padding: 40px 0 0;
+}
+
+.copy {
+	color: white;
+	font-size: 13px;
+	background: #2D3033;
+}
+
+main {
+	width: 940px;
+	margin: 0 auto;
+}
+
+form {
+	margin: 40px 0;
+}
+
+form label, form legend {
+	display: block;
+	font-size: 20px;
+	margin: 0 0 10px;
+}
+
+.input-padrao{
+	display: block;
+	margin: 0 0 20px;
+	padding: 8px 20px;
+	font-size: 15px;
+	width: 40%;
+}
+
+.checkbox{
+	margin: 20px;
+}
+
+.enviar {
+	width: 40%;
+	padding: 15px 0;
+	font-size: 18px;
+	font-weight: bold;
+	border-radius: 15px;
+	background: #DAA520;
+	transition: 0.5s all;
+	cursor: pointer;
+	
+}
+
+.enviar:hover {
+	background: #17181A;
+	color: #DAA520;
+	position: relative;
+	top:-2px;box-shadow:0 2px 2px #666;
+	transform: scale(1.1);
+
+}
+
+table {
+	margin: 20px 40px;
+	text-align: center;
+}
+
+thead {
+	background:#17181A ;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+td, th {
+	border: 1px solid black;
+	padding: 15px 8px;
+}
+
+#legenda-tabela {
+	font-size: 20px;
+	
+}
